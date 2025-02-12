@@ -48,3 +48,11 @@ y que puede ser tan largo como quiera'
 
 - Delimitador cat <<
 - Operador que Sirve para enviarle datos al comando
+
+## LEER PARAMETROS CON READ Y MOSTRAR VARIABLES EN TEXTO CON $
+
+```shell
+read -p "ingresa el nombre de la variable: " [nombre_variable]
+
+echo "mensaje $[nombre_variable]"
+```
