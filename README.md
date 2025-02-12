@@ -76,6 +76,14 @@ echo "mensaje $[nombre_variable]"
 
 - if (())
 - if [] && []
-- if [[ && ]]
+- if [[&&]]
 
 ### OJO: HAY QUE PONER TODO PEGADO, LOS ESPACIOS PRODUCEN ERROR
+
+## ARGS
+
+para invocar un archivo con argumentos se pone:
+
+```shell
+./11-arguments.sh juana maria diana another_argument extra_argument final_argument
+```
