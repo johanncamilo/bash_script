@@ -56,3 +56,24 @@ read -p "ingresa el nombre de la variable: " [nombre_variable]
 
 echo "mensaje $[nombre_variable]"
 ```
+
+## LISTA DE OPERADORES DE COMPARACIÓN EN BASH:
+
+- -eq: igual
+- -gt: mayor que
+- -ge: mayor o igual que
+- -lt: menor que
+- -le: menor o igual que
+- -ne: diferente
+
+## Operadores logicos en bash
+
+- && - and
+- || - or
+- ! - not
+
+## FORMAS DE ESCRIBIR IF
+
+- if (())
+- if [] && []
+- if [[ && ]] 
