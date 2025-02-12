@@ -76,4 +76,6 @@ echo "mensaje $[nombre_variable]"
 
 - if (())
 - if [] && []
-- if [[ && ]] 
+- if [[ && ]]
+
+### OJO: HAY QUE PONER TODO PEGADO, LOS ESPACIOS PRODUCEN ERROR
