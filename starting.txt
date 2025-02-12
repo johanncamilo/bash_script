@@ -1,0 +1,5 @@
+Hola, este es el contenido del archivo hasta que llegue a EOF.
+uno
+dos
+tres
+cuatro
