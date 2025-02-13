@@ -87,3 +87,15 @@ para invocar un archivo con argumentos se pone:
 ```shell
 ./11-arguments.sh juana maria diana another_argument extra_argument final_argument
 ```
+
+## STDIN
+
+### ${1:-/dev/stdin}
+
+es una expresión que utiliza la expansión de parámetros de Bash. Aquí, ${1} se refiere al primer argumento pasado al script. Si el primer argumento no se proporciona ($1 está vacío o no está definido), se usa stdin como valor predeterminado.
+
+### CORRER ARCHIVO CON STDIN
+
+```shell
+./12-stdin.sh starting.txt
+```
