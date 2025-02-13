@@ -94,8 +94,60 @@ para invocar un archivo con argumentos se pone:
 
 es una expresión que utiliza la expansión de parámetros de Bash. Aquí, ${1} se refiere al primer argumento pasado al script. Si el primer argumento no se proporciona ($1 está vacío o no está definido), se usa stdin como valor predeterminado.
 
-### CORRER ARCHIVO CON STDIN
+### CORRER ARCHIVO CON STDIN EN SHELL
 
 ```shell
 ./12-stdin.sh starting.txt
+```
+
+### wc
+
+- word count
+- flag -l cuenta lineas
+
+```shell
+wc simplificado.txt
+wc -l simplificado.txt # cuenta lineas
+wc -m simplificado.txt # cuenta numero de caracteres
+```
+
+## pipes
+
+operador | pasa el resultado de un comando a otro
+
+```shell
+ls | wc -l
+# 20
+```
+
+```shell
+ls -l | sort -k5 -rn
+# ordena los archivos del ls por peso de mayor a menor
+```
+
+- en bash script ⬇
+
+```shell
+#! /bin/bash
+
+MESSAGE="Hello, World!"
+
+# wc -m cuenta el numero de carateres
+echo $MESSAGE | wc -m
+```
+
+## Darle permisos a varios scripts a la vez
+
+```shell
+chmod +x first.sh second.sh
+```
+
+## Pasar datos entre archivos
+
+```shell
+# from first.sh
+
+# ...
+export MESSAGE
+./second.sh
 ```
