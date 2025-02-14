@@ -151,3 +151,13 @@ chmod +x first.sh second.sh
 export MESSAGE
 ./second.sh
 ```
+
+## Última versión de bash!
+
+- To ensure you're always using this version of Bash in your scripts, you can start your scripts with:
+
+```shell
+#!/usr/bin/env bash
+```
+
+> Para usar la última versión de mi bash
