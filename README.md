@@ -161,3 +161,8 @@ export MESSAGE
 ```
 
 > Para usar la última versión de mi bash
+
+## Ambito de Variables
+
+- En bash las variables son globales, no importa que se hayan declarado dentro de una funcion
+- para hacerlas locales hay que usar la palabra **local**
