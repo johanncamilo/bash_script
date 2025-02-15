@@ -175,3 +175,18 @@ export MESSAGE
 
 https://jsonplaceholder.typicode.com/users
 https://freetestdata.com/wp-content/uploads/2022/02/Free_Test_Data_117KB_JPG.jpg
+
+## Debugging
+
+- ejecutar esto en la terminal:
+
+```shell
+bash -x [name_file].sh
+```
+
+- también ponerle un -x al final del shebang
+
+#### Poner breakpoints en bash script
+
+- poner **set -x** al inicio donde quiero empezar a ver el codigo y **set +x** al final
+- es como poner límites donde quiero ver el debug

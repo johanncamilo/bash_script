@@ -14,10 +14,12 @@ echo "el total de items es: ${#names[*]}"
 
 echo "El último elemento es: ${names[${#names[*]}-1]}"
 
+set -x
 for name in ${names[@]}
 do
     echo "my name is $name"
 done
+set +x
 
 for i in ${!names[@]}
 do
