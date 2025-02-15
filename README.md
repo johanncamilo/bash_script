@@ -166,3 +166,12 @@ export MESSAGE
 
 - En bash las variables son globales, no importa que se hayan declarado dentro de una funcion
 - para hacerlas locales hay que usar la palabra **local**
+
+## curl
+
+- curl es una herramienta para transferir datos desde o hacia un servidor, soporta los protocolos HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP, o FILE. curl soporta certificados SSL, proxies, cookies, autenticación de usuario, descompresión de archivos y más.
+
+###### urls test
+
+https://jsonplaceholder.typicode.com/users
+https://freetestdata.com/wp-content/uploads/2022/02/Free_Test_Data_117KB_JPG.jpg
